@@ -13,6 +13,7 @@ My terminal configuration contains Tmux and custom OSX terminal theme.
   - `Ctrl + k 3` - split screen vertically
   - `Ctrl + k 2` - split screen horizontally
   - `Ctrl + k 0` - close current pane
+  - `Ctrl + k o` - switch to next pane
 
 - Sessions
   - `Ctrl + k n` - open new session
