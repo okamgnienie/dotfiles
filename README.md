@@ -6,9 +6,7 @@ My terminal configuration contains Tmux and custom OSX terminal theme.
 2. Install oh-my-zsh
 3. Clone repository `git clone https://github.com/phardyn/dotfiles.git ~/Documents`
 4. Install theme
-5. Symlink .tmux.conf `ln -s ~/Documents/dotfiles/.tmux.conf ~/.tmux.conf`
-6. Symlink .profile `ln -s ~/Documents/dotfiles/.profile ~/.profile`
-7. Symlink .zshrc `ln -s ~/Documents/dotfiles/.zshrc ~/.zshrc`
+5. Run `setup.sh` to create symlinks to configuration files
 
 ## Key bindings
 - Panes
