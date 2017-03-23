@@ -92,8 +92,8 @@ cd() {
 
 # Open tmux by default:
 tmux attach &> /dev/null
-if [[ ! $TERM =~ screen ]]; then
-    exec tmux
+if { [ "$TERM" = "screen" ] && ! [ -n "$EMACS" ]; } then
+   exec tmux
 fi
 
 # Disable sharing history between tmux panes:
