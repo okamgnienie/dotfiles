@@ -3,10 +3,12 @@ My terminal configuration contains Tmux and custom OSX terminal theme.
 
 ## Installation
 1. Install tmux
-2. Clone repository `git clone https://github.com/phardyn/dotfiles.git ~/Documents`
-3. Install theme
-4. Symlink .tmux.conf `ln -s ~/Documents/dotfiles/.tmux.conf ~/.tmux.conf`
-5. Symlink .profile `ln -s ~/Documents/dotfiles/.profile ~/.profile`
+2. Install oh-my-zsh
+3. Clone repository `git clone https://github.com/phardyn/dotfiles.git ~/Documents`
+4. Install theme
+5. Symlink .tmux.conf `ln -s ~/Documents/dotfiles/.tmux.conf ~/.tmux.conf`
+6. Symlink .profile `ln -s ~/Documents/dotfiles/.profile ~/.profile`
+7. Symlink .zshrc `ln -s ~/Documents/dotfiles/.zshrc ~/.zshrc`
 
 ## Key bindings
 - Panes
