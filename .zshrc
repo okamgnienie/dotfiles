@@ -95,3 +95,7 @@ tmux attach &> /dev/null
 if [[ ! $TERM =~ screen ]]; then
     exec tmux
 fi
+
+# Disable sharing history between tmux panes:
+setopt noincappendhistory
+setopt nosharehistory
