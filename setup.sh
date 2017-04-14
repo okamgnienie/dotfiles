@@ -18,9 +18,6 @@ sleep 3
 printf "\n${PURPLE}>_ Creating symlink for .tmux.conf${RESET}\n"
 ln -s $SRC/.tmux.conf $DEST/.tmux.conf
 
-printf "\n${PURPLE}>_ Creating symlink for .profile${RESET}\n"
-ln -s $SRC/configs/.profile $DEST/.profile
-
 printf "\n${PURPLE}>_ Creating symlink for .zshrc${RESET}\n"
 ln -s $SRC/configs/.zshrc $DEST/.zshrc
 
