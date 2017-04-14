@@ -18,6 +18,7 @@ My terminal configuration contains Tmux and custom OSX terminal theme.
 - Sessions
   - `Ctrl + k n` - open new session
   - `Ctrl + k $` - change session name
+  - `Ctrl + k X` - kill all sessions except the current one
 
 - Other
   - `Ctrl + k :` - enter command
