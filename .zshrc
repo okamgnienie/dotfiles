@@ -2,6 +2,9 @@
 export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
+# Prompt configuration:
+PROMPT='$fg[green]→ $fg_bold[cyan]${PWD##*/} $reset_color'
+
 # Updates settings:
 export UPDATE_ZSH_DAYS=1
 
