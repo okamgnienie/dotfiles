@@ -1,5 +1,5 @@
 # Dotfiles
-My terminal configuration contains Tmux and custom OSX terminal theme.
+My MacOS terminal, Tmux and zsh configuration.
 
 ## Installation
 1. Install tmux
@@ -22,3 +22,4 @@ My terminal configuration contains Tmux and custom OSX terminal theme.
 
 - Other
   - `Ctrl + k :` - enter command
+  - `Ctrl + k R` - reload the Tmux configuration file
