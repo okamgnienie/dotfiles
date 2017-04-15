@@ -3,7 +3,12 @@ export ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 
 # Prompt configuration:
-PROMPT='$fg[green]→ $fg_bold[cyan]${PWD##*/} $reset_color'
+function getDir {
+    currentDir="${PWD##*/}"
+    [ $currentDir = $USER ] && currentDir="~"
+}
+getDir
+PROMPT='$fg[green]→ $fg_bold[cyan]$currentDir $reset_color'
 
 # Updates settings:
 export UPDATE_ZSH_DAYS=1
@@ -15,6 +20,7 @@ plugins=(git lein npm yarn)
 cd() {
     builtin cd "$@";
     tmux refresh-client -S;
+    getDir;
 }
 
 # Open tmux by default:
