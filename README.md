@@ -1,13 +1,11 @@
 # Dotfiles
 ![terminal](images/terminal.png)
-My MacOS terminal, Tmux and zsh configuration.
+My MacOS terminal, Tmux and ZSH configuration.
 
 ## Installation
-1. Install tmux
-2. Install oh-my-zsh
-3. Clone repository `git clone https://github.com/phardyn/dotfiles.git ~/Documents`
-4. Install theme
-5. Run `setup.sh` to create symlinks to configuration files
+1. Clone repository `git clone https://github.com/phardyn/dotfiles.git`
+2. Install terminal theme from the file `phardyn.terminal`
+3. Run `setup.sh` to install and configure dependencies
 
 ## Key bindings
 - Panes
