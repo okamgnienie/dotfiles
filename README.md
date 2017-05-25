@@ -21,7 +21,7 @@ My MacOS terminal, Tmux and ZSH configuration.
 
 - Other
   - `Ctrl + k :` - enter command
-  - `Ctrl + k R` - reload the Tmux configuration file
+  - `Ctrl + k r` - reload the Tmux configuration file
 
 ## Credits
 A lot of functionality and inspiration comes from [this](https://github.com/ice9js/dragons) config by [ice9js](https://github.com/ice9js).
