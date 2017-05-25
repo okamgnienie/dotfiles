@@ -42,7 +42,7 @@ clear
 printf "\n${BLUE} - Welcome to the setup script! - ${RESET}\n"
 sleep 2
 
-# Tmux ---------------------------------
+# Homebrew ---------------------------------
 
 headlineMessage "Homebrew - - - - - - - - - - -"
 
