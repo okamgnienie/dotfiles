@@ -73,6 +73,21 @@ fi
 infoMessage "Configuring"
 ln -sf $SRC/.tmux.conf $DEST/.tmux.conf
 
+# Tmux Package Manager ---------------------------------
+
+headlineMessage "Tmux Package Manager - - - - -"
+
+# Program
+
+TPU_DIR=$DEST/.tmux/plugins/tpm
+
+if [ -d "$TPU_DIR" ]; then
+    successMessage "Already installed"
+else
+    infoMessage "Installing..."
+    git clone https://github.com/tmux-plugins/tpm $TPU_DIR
+fi
+
 # Zsh ----------------------------------
 
 headlineMessage "oh-my-zsh  - - - - - - - - - -"
