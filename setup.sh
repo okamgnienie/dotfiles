@@ -89,7 +89,7 @@ fi
 # Config
 
 infoMessage "Configuring"
-ln -sf $SRC/configs/.zshrc $DEST/.zshrc
+ln -sf $SRC/.zshrc $DEST/.zshrc
 
 # Scripts ----------------------------------
 
