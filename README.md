@@ -17,6 +17,7 @@ My MacOS terminal, Tmux and ZSH configuration.
 - Sessions
   - `Ctrl + k n` - open new session
   - `Ctrl + k $` - change session name
+  - `Ctrl + k x` - kill the current session
   - `Ctrl + k X` - kill all sessions except the current one
 
 - Other
