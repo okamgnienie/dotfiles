@@ -25,6 +25,7 @@ My MacOS terminal, Tmux and ZSH configuration.
   - `Ctrl + k r` - reload the Tmux configuration file
   - `Ctrl + k S` - save current setup with tmux-resurrect
   - `Ctrl + k R` - restore saved setup with tmux-resurrect
+  - `Ctrl + k m` - enable/disable mouse mode (scrolling, switching panes etc.)
 
 ## Credits
 A lot of functionality and inspiration comes from [this](https://github.com/ice9js/dragons) config by [ice9js](https://github.com/ice9js).
