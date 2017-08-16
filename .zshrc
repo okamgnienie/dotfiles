@@ -8,7 +8,8 @@ function getDir {
     [ $currentDir = $USER ] && currentDir="~"
 }
 getDir
-PROMPT='$fg[green]→ $fg_bold[cyan]$currentDir $reset_color'
+
+PROMPT='%{$fg[green]%}→%{$fg_bold[cyan]%} $currentDir %{$reset_color%}'
 
 # Updates settings:
 export UPDATE_ZSH_DAYS=1
