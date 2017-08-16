@@ -1,5 +1,6 @@
 # Path to oh-my-zsh installation:
 export ZSH=$HOME/.oh-my-zsh
+export SVN_EDITOR=emacs
 source $ZSH/oh-my-zsh.sh
 
 # Prompt configuration:
