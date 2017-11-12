@@ -11,6 +11,9 @@ RESET='\033[0m'
 SRC=$(pwd)
 DEST=${HOME}
 
+# Others
+CURSOR_SPEED=2
+
 checkIfExists() {
     if hash $1 2>/dev/null; then
         echo 1
@@ -41,6 +44,16 @@ successMessage() {
 clear
 printf "\n${BLUE} - Welcome to the setup script! - ${RESET}\n"
 sleep 2
+
+
+# Setup the cursor speed ---------------------------------
+
+headlineMessage "Cursor - - - - - - - - - - - -"
+
+# Config
+
+defaults write NSGlobalDomain KeyRepeat -int $CURSOR_SPEED
+successMessage "Cursor speed set to $CURSOR_SPEED"
 
 # Homebrew ---------------------------------
 
