@@ -13,6 +13,8 @@ My MacOS terminal, Tmux and ZSH configuration.
   - `Ctrl + k 2` - split screen horizontally
   - `Ctrl + k 0` - close current pane
   - `Ctrl + k o` - switch to next pane
+  - `Ctrl + V` - equally balance panes vertically
+  - `Ctrl + H` - equally balance panes horizontally
 
 - Sessions
   - `Ctrl + k n` - open new session
