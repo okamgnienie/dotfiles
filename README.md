@@ -6,6 +6,7 @@ My MacOS terminal, Tmux and ZSH configuration.
 1. Clone repository `git clone https://github.com/phardyn/dotfiles.git`
 2. Install terminal theme from the file `phardyn.terminal`
 3. Run `setup.sh` to install and configure dependencies
+4. While in Tmux press `Ctrl + k I` to install Tmux packages
 
 ## Key bindings
 - Panes
