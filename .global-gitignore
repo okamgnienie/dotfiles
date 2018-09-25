@@ -1,0 +1,12 @@
+# General
+log/
+*.log
+
+# MacOS
+.DS_Store
+
+# Emacs
+\#*#
+
+# Node
+npm-debug.log

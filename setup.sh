@@ -45,6 +45,15 @@ clear
 printf "\n${BLUE} - Welcome to the setup script! - ${RESET}\n"
 sleep 2
 
+# Git settings ---------------------------------
+
+headlineMessage "Git  - - - - - - - - - - - - -"
+
+# Config
+
+infoMessage "Configuring"
+ln -sf $SRC/.global-gitignore $DEST/.gitignore
+git config --global core.excludesfile $DEST/.gitignore
 
 # Setup the cursor speed ---------------------------------
 
